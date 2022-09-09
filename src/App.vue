@@ -57,6 +57,7 @@
           <v-card-text>something</v-card-text>
           <v-card-actions>option 1</v-card-actions>
         </v-card>
+        <v-chip close-icon="mdi-delete" color="orange">Something We can do</v-chip>
         <!-- If using vue-router -->
         <router-view></router-view>
       </v-container>
@@ -79,3 +80,7 @@ export default {
   }),
 };
 </script>
+<style>
+
+
+</style>
